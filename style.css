@@ -1,0 +1,62 @@
+body {
+  background-image: url("https://images6.alphacoders.com/436/thumb-1920-436859.jpg");
+  background-size: cover;
+}
+
+.col-md-7 {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: 2px solid black;
+  box-shadow: #fffdfd 0px 22px 70px 4px;
+  padding-bottom: 10px;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+li {
+  margin-top: 10px;
+  padding-left: 25px;
+  list-style-type: none;
+  font-size: 20px;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+li:hover {
+    background-color: grey;
+    color:white;    
+}
+.btn {
+  margin-top: 5px;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+
+.btn:hover{
+    box-shadow: #fffdfd 0px 22px 70px 4px;
+
+}
+
+.text-center {
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+    -webkit-transition: background-color 0.6s ease-in;
+    transition: background-color 0.6s ease-in;
+}
+.text-center:hover {
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+}
+
+h2{
+    -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+
+h2:hover{
+    background-color: black;
+    color: #e6e9f0;
+}
